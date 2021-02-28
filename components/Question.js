@@ -15,7 +15,7 @@ const Choice = ({ choice, emoji }) => {
 const Question = ({ title, subtitle, choices }) => {
   const [selected, setSelected] = useState();
   return (
-    <>
+    <div className="w-full bg-green-300">
       <div className="px-6 pt-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <div className="text-lg">{subtitle}</div>
@@ -40,7 +40,7 @@ const Question = ({ title, subtitle, choices }) => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
