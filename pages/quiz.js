@@ -4,7 +4,7 @@ import Question from "../components/Question";
 const data = [
   {
     title: "What do you usually shoot?",
-    subtitle: "Lets be honest.",
+    subtitle: "Let's be honest.",
     choices: [
       {
         choice: "70s",
