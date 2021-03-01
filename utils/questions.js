@@ -106,23 +106,4 @@ export const data = [
       },
     ],
   },
-  {
-    title: "How often do you buy new balls?",
-    subtitle:
-      "This helps us figure out how often you smack the ball into the woods.",
-    choices: [
-      {
-        choice: "Weekly",
-        emoji: "🕵️",
-      },
-      {
-        choice: "Monthly",
-        emoji: "🏋",
-      },
-      {
-        choice: "Occasionally",
-        emoji: "🏠",
-      },
-    ],
-  },
 ];
