@@ -26,7 +26,7 @@ const Question = ({ title, subtitle, choices, onComplete }) => {
             <div
               className={
                 selected === i
-                  ? "p-2 rounded-lg mb-4 items-center flex bg-gray-200 hover:bg-gray-200 cursor-pointer"
+                  ? "p-2 rounded-lg mb-4 item-center flex bg-gray-200 hover:bg-gray-200 cursor-pointer"
                   : "p-2 rounded-lg mb-4 items-center flex hover:bg-gray-200 cursor-pointer"
               }
             >

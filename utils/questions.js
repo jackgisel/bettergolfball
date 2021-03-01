@@ -27,55 +27,56 @@ export const data = [
   },
   {
     title: "What is your favorite part of golf?",
-    subtitle: "Hard to pick just one, but try your hardest.",
+    subtitle: "We know it's hard to pick just one, but you can do it.",
     choices: [
       {
         choice: "Drives",
-        emoji: "🐅",
+        emoji: "💣",
       },
       {
         choice: "Irons",
-        emoji: "🐐",
+        emoji: "🏒",
       },
       {
         choice: "Chips",
-        emoji: "🐎",
+        emoji: "⛳",
       },
       {
         choice: "Putts",
-        emoji: "🐂",
+        emoji: "😎",
       },
     ],
   },
   {
     title: "What do you prefer?",
-    subtitle: "@justin help",
+    subtitle:
+      "Would you rather hit the ball 300 yards or have backspin like Rory?",
     choices: [
       {
         choice: "Distance",
-        emoji: "🐅",
+        emoji: "💣",
       },
       {
         choice: "Spin",
-        emoji: "🐐",
+        emoji: "🎛",
       },
     ],
   },
   {
-    title: "What do you typicall spend on a box of balls?",
-    subtitle: "This is where things get tricky...",
+    title: "What do you typically spend on a box of balls?",
+    subtitle: "Don't worry, we won't make fun of you. Be honest",
     choices: [
       {
         choice: "$12-19",
-        emoji: "🐅",
+        emoji: "🪨",
       },
       {
         choice: "$20-29",
-        emoji: "🐐",
+        emoji: "⚖️",
       },
       {
         choice: "$30-40",
-        emoji: "🐎",
+        emoji: "💰",
       },
       {
         choice: "Idgaf give me the best ball. I'm basically Tiger.",
@@ -89,37 +90,38 @@ export const data = [
     choices: [
       {
         choice: "Firm",
-        emoji: "🐅",
+        emoji: "🍆",
       },
       {
         choice: "Soft",
-        emoji: "🐐",
+        emoji: "🍤",
       },
       {
         choice: "Medium",
-        emoji: "🐎",
+        emoji: "🥕",
       },
       {
         choice: "That's personal",
-        emoji: "🐂",
+        emoji: "🏳️‍🌈",
       },
     ],
   },
   {
     title: "How often do you buy new balls?",
-    subtitle: "This part doesn't matter as much",
+    subtitle:
+      "This helps us figure out how often you smack the ball into the woods.",
     choices: [
       {
         choice: "Weekly",
-        emoji: "🐅",
+        emoji: "🕵️",
       },
       {
         choice: "Monthly",
-        emoji: "🐐",
+        emoji: "🏋",
       },
       {
         choice: "Occasionally",
-        emoji: "🐎",
+        emoji: "🏠",
       },
     ],
   },
