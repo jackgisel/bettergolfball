@@ -12,7 +12,7 @@ const Choice = ({ choice, emoji }) => {
   );
 };
 
-const Question = ({ title, subtitle, choices }) => {
+const Question = ({ title, subtitle, choices, onComplete }) => {
   const [selected, setSelected] = useState();
   return (
     <div className="w-full bg-green-300">
@@ -36,7 +36,7 @@ const Question = ({ title, subtitle, choices }) => {
         ))}
         {typeof selected === "number" && (
           <div className="text-center pb-2">
-            <Button title="Next" />
+            <Button title="Next" onClick={onComplete} />
           </div>
         )}
       </div>
